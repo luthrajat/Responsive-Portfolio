@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="asset/reset.css">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="clsContainer">
+      <header>
+            <ul class="navBar">
+                <li class="myName" style="float:left">My Name</li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+      </header>
+          <div class="wrapper">
+                <section class="clsPageTitle">
+                    Contact
+                    <hr/>
+                    <p class="clsLabel">Name</p>
+                    <input type="text" id="txtName" placeholder="John Smith"></input>
+                    <!--  onblur="if(this.value==''){ this.value='John Smith'; this.style.color='#BBB';}"
+                      onfocus="if(this.value=='John Smith'){ this.value=''; this.style.color='#000';}"
+                      style="color:#BBB;" value="John Smith"></input> -->
+                    <p class="clsLabel">Email</p>
+                    <input type="text" id="txtEmail" placeholder="example@gmail.com">
+                        <!-- onblur="if(this.value==''){ this.value='example@gmail.com'; this.style.color='#BBB';}"
+                        onfocus="if(this.value=='example@gmail.com'){ this.value=''; this.style.color='#000';}"
+                        style="color:#BBB;" value="example@gmail.com"> -->
+                    </input>
+                    <p class="clsLabel">Message</p><br/>
+                    <textarea id="txtMessage" rows="10" cols="20"></textarea>
+                    <input class="clsButton" value="Submit" type="button" onclick="alert('Hey ' + txtName.value);"></input>
+                </section>
+                <aside class="clsPageTitle">
+                    Connect with me
+                    <hr/>
+                    <ul>
+                        <li><a href="https://github.com/luthrajat" target="_blank"><img alt="GitHub" src="images/GitHub.png" class="clsImg"/></a></li>
+                        <li><a href="https://linkedin.com/" target="_blank"><img alt="LinkedIn" src="images/LinkedIn.png" class="clsImg"/></a></li>
+                        <li><a href="https://stackoverflow.com/" target="_blank"><img alt="Stackoverflow" src="images/StackOverflow.png" class="clsImg"/></a></li>
+                    </ul>
+                </aside>
+            </div>
+        <footer class="footerBand">
+            &#169; Copyright 2017 Dummy Name
+        </footer>
+    </div>
+  </body>
+</html>
