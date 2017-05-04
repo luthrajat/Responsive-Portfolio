@@ -239,17 +239,12 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-      p {
-        margin: 100px auto;
-        color:#ff0000;
-      }
 }
 
 @media screen and (max-width: 768px) {
 }
 
 @media screen and (max-width: 640px) {
-
       #masthead {
         position: static;
       }
@@ -276,6 +271,11 @@ input[type=submit] {
 
       .work {
         margin: 0% auto;
+        width: 100%;
+      }
+
+      .auth-image {
+        margin: 0 auto;
         width: 100%;
       }
 
