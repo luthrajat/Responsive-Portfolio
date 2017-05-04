@@ -242,6 +242,30 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 768px) {
+
+  nav a:last-child {
+    margin-right: 20px;
+  }
+
+  .work {
+    margin: 0% auto;
+    width: 45%;
+  }
+
+  .main-section {
+    clear: both;
+    width: 96%;
+    min-width: 96%;
+    margin: 2%;
+    margin-left: 2%;
+  }
+
+  .sidebar {
+    clear: both;
+    width: 96%;
+    min-width: 96%;
+    margin: 2%;
+  }
 }
 
 @media screen and (max-width: 640px) {
