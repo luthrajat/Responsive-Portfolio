@@ -274,6 +274,11 @@ input[type=submit] {
         width: 33%;
       }
 
+      .work {
+        margin: 0% auto;
+        width: 100%;
+      }
+
       .main-section {
         clear: both;
         width: 96%;
