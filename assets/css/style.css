@@ -239,6 +239,32 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
+
+  nav a:last-child {
+    margin-right: 20px;
+  }
+
+  .work {
+    margin: 0% auto;
+    width: 100%;
+  }
+
+  #main-container {
+    margin: 0px auto;
+  }
+
+  .main-section {
+    float: left;
+    width: 33%;
+    margin: 2%;
+    margin-left: 20%;
+  }
+
+  .sidebar {
+    float: left;
+    width: 33%;
+    margin: 2%;
+  }
 }
 
 @media screen and (max-width: 768px) {
