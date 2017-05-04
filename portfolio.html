@@ -1,53 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="asset/reset.css">
-  <link rel="stylesheet" href="assets/style.css">
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-      <div class="clsContainer">
-      <header>
-            <ul class="navBar">
-                <li class="myName" style="float:left">My Name</li>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-      </header>
-      <div class="wrapper">
-          <section class="clsPageTitle">
-              Portfolio
-              <hr/>
-              <ul class="clsGrid">
-                <li><div class="relativePosition"><img src="images/StackOverflow.png"></img><div class="clsBand">1st Img</div></div></a></li>
-                <li><div class="relativePosition"><img src="images/StackOverflow.png"></img><div class="clsBand">2nd Img</div></div></a></li>
-                <li><div class="relativePosition"><img src="images/StackOverflow.png"></img><div class="clsBand">3rd Img</div></div></a></li>
-                <li><div class="relativePosition"><img src="images/StackOverflow.png"></img><div class="clsBand">4th Img</div></div></a></li>
-                <li><div class="relativePosition"><img src="images/StackOverflow.png"></img><div class="clsBand">5th Img</div></div></a></li>
-                <li><div class="relativePosition"><img src="images/StackOverflow.png"></img><div class="clsBand">6th Img</div></div></a></li>
-                <li><div class="relativePosition"><img src="images/StackOverflow.png"></img><div class="clsBand">7th Img</div></div></a></li>
-                <li><div class="relativePosition"><img src="images/StackOverflow.png"></img><div class="clsBand">8th Img</div></div></a></li>
-                <li><div class="relativePosition"><img src="images/StackOverflow.png"></img><div class="clsBand">9th Img</div></div></a></li>
-                <li><div class="relativePosition"><img src="images/StackOverflow.png"></img><div class="clsBand">10th Img</div></div></a></li>
-              </ul>
-          </section>
-          <aside class="clsPageTitle">
-              Connect with me
-              <hr/>
-              <ul>
-                  <li><a href="https://github.com/luthrajat" target="_blank"><img alt="GitHub" src="images/GitHub.png" class="clsImg"/></a></li>
-                  <li><a href="https://linkedin.com/" target="_blank"><img alt="LinkedIn" src="images/LinkedIn.png" class="clsImg"/></a></li>
-                  <li><a href="https://stackoverflow.com/" target="_blank"><img alt="Stackoverflow" src="images/StackOverflow.png" class="clsImg"/></a></li>
-              </ul>
-          </aside>
-        </div>
-      <footer class="footerBand">
-          &#169; Copyright 2017 Dummy Name
-      </footer>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+
+        <h3>Hangman</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Your Name
+    </div>
+  </footer>
 </body>
+
 </html>
